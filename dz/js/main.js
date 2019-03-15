@@ -13,3 +13,14 @@ var button2 = document.querySelector("#button2");
 button2.onclick = function () {
 	document.querySelector("#changedTag").innerHTML = "<h3>h3h3</h3>";
 };
+
+//3.Поменяйте содержимое списка на текст list их порядковый номер в коде.
+
+var button3 = document.querySelector("#button3");
+var list = document.querySelector("#ul_").children;
+
+button3.onclick = function () {
+	for (var i = 0; i < 4; i++) {
+		list[i].innerText = "List" + (i+1);
+	}
+}

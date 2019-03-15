@@ -5,17 +5,44 @@
 	<title>lesson 5</title>
 	</head>
 <body>
-	<p> 1.Есть кнопка button рядом с ней есть текст (Hello) необходимо при нажатии на кнопку поменять текст кнопки на (Привет)</p>
-	<button id = button>Кнопка</button>
-	<span id = text>Hello!</span>
+	<p class = "text"> 1.Есть кнопка button рядом с ней есть текст (Hello) необходимо при нажатии на кнопку поменять текст кнопки на (Привет)</p>
+	<button class = "text" id = "button">Кнопка</button>
+	<span id = "text">Hello!</span>
 	<hr>
 	<br>
-	<p id = task2>2.Есть кнопка button рядом с ней есть тэг <xmp>"<b></b>"</xmp>(Hello) необходимо при нажатии на кнопку поменять тэг на <xmp>"<h3></h3>"</xmp></p>
-	<button id = button2>Кнопка 2</button>
-	<p id = changedTag><b>Hello</b></p>
+	<p class = "text" id = "task2">2.Есть кнопка button рядом с ней есть тэг <xmp>"<b></b>"</xmp>(Hello) необходимо при нажатии на кнопку поменять тэг на <xmp>"<h3></h3>"</xmp></p>
+	<button class = "text" id = "button2">Кнопка 2</button>
+	<p id = "changedTag"><b>Hello</b></p>
 	<hr>
 	<br>
-	
+	<div class = "text">
+		3.Дан код:<xmp> 
+		<h2>Заголовок.</h2>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul></xmp>
+Поменяйте содержимое списка на текст list их порядковый номер в коде.
+	</div>
+	<h2>Заголовок.</h2>
+		<ul id="ul_">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+
+	<button class = "text" id = "button3">Поменяйте содержимое списка</button>
+
+
+
+	<style type="text/css">
+		.text{
+			font-family: sans-serif;
+		}
+	</style>
 	<script src = ./js/main.js ></script>
-</body>
+	</body>
 </html>
